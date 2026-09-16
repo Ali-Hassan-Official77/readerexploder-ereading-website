@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <div className="grid min-h-[70vh] place-items-center px-6 text-center"><div><p className="eyebrow text-accent">Lost page</p><h1 className="mt-3 font-display text-8xl">404</h1><p className="mt-3 text-muted">This shelf is empty.</p><Link href="/" className="mt-7 inline-flex rounded-full bg-paper px-5 py-3 text-xs font-bold text-ink">Return to ReaderExpo</Link></div></div>}
