@@ -34,6 +34,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
+
+        <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_efiI9zqkY9zKR2zRda2V0j1T" defer></script>
       </body>
     </html>
   );
